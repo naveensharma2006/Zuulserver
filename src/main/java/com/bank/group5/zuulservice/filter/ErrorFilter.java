@@ -4,6 +4,9 @@ import com.netflix.zuul.ZuulFilter;
 
 public class ErrorFilter extends ZuulFilter {
 
+	/**
+	 *
+	 */
 	@Override
 	public String filterType() {
 		return "error";
